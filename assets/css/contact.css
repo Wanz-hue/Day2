@@ -3,6 +3,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
 form {
     width: 350px;
     margin: 50px auto;
@@ -10,6 +15,7 @@ form {
 
 div {
     margin-top: 20px;
+
 }
 
 input, select, textarea {
@@ -30,10 +36,11 @@ textarea {
 }
 
 button {
-    background-color: rgb(44, 105, 68);
+    background-color: rgb(35, 90, 65);
     border: none;
     color: white;
     padding: 6px 25px;
     cursor: pointer;
     border-radius: 5px;
+    float: right;
 }
